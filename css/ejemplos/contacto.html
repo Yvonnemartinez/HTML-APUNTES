@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO CONTACTO</title>
+    <style>
+        h2{
+            color:cornflowerblue;
+            text-align: center;
+            margin-bottom: 50px;
+            text-decoration:underline;
+        }
+        form{
+            border:1px solid blue;
+            padding:50px;
+            width:500px;
+            height: 350px;
+            text-align: left;
+            margin: auto;
+        }
+        
+        .boton{
+            float:right;
+        }
+        body{
+            background-image: url(./images/fondo.jpg);
+          
+
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Contacto</h2>
+    <form>
+        <label>Nombre:</label>
+         <br>
+         <input type="text" name="nombre" id="name" placeholder="Escriba su nombre" required>
+          <br>
+         <br>
+       <label>Apellidos</label>
+       <br>
+         <input type="text" name="apellidos" id="apellidos" placeholder="Escriba sus apellidos">
+         <br>
+         <br>
+        <label for="texto">Deje aquí su comentario:<label>
+            <textarea id="comentario" name="comentario" rows="6" cols="60" placeholder="max.200 caracteres"></textarea >
+                <br>
+                <br>
+        <label>¿Quiere recibir información?</label>
+        <br>
+        <input type="checkbox" name="si" value="sí" checked>
+        <label for="si"> Si, quiero recibir información</label><br>
+        <input type="checkbox" name="no" value="no">
+        <label for="no"> No deseo recibir información de esta web</label>
+        <br>
+        <br>
+        <input type="submit" value="Enviar" class="boton" >  
+           
+    </form>
+
+</body>
+</html>

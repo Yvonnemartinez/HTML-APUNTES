@@ -1,0 +1,13 @@
+.container{
+    height:100vh;
+    display:grid;/*convierte los elementos en cuadrículas*/
+    grid-gap: 20px; /*espaciado entre columnas y filas*/
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr; /*hace refencia a cuantas columnas hay y su tamaño. En este ejemplo, la segunda columna mide 3 veces más que la primera y las otras dos*/
+    grid-template-rows: 2fr 1fr 3fr; /*hace referencia a cuantas filas hay y su tamaño*/
+
+
+}
+.box{
+    background-color:darkviolet;
+   padding:20px;
+}

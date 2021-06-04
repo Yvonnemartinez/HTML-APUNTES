@@ -1,0 +1,15 @@
+.margin{
+    border:2px solid blue;
+    background-color: tomato;
+    margin:100px 200px 40px 30px;
+
+}
+.padding{
+    border: 5px solid grey;
+    padding:200px 20px 300px 600px;
+    background-color:lightpink;
+}
+
+h1{
+    color:blue;
+}

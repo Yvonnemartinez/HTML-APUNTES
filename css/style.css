@@ -1,0 +1,20 @@
+h1{
+    color:blueviolet  
+    font-size:200%;
+  }
+  
+  p{
+      color: orange;
+      font-size: 50px;
+  }
+  #unico{
+      color: blue;
+      font-size: 50px;
+  
+  }
+  
+  .verde{
+      color:green;
+      font-size: 50px;
+      background-color: red;
+  }

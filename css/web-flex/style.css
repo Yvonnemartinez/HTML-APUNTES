@@ -1,0 +1,73 @@
+  /*resetear los navegadores también se haría con margin:0; paddin:0;*/
+
+*{
+    box-sizing: border-box;
+}
+/*Estilo del body*/
+body{
+    font-family: arial;
+    margin:0;
+}
+
+.header{
+    padding:60px;
+    text-align:center;
+    background:lightblue;
+    color:blue;
+}
+
+.navbar{
+    display:flex;
+    background-color:lightcyan;
+}
+.navbar a{
+    color:cornflowerblue;
+    padding:14px 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.navbar a:hover{
+    background-color: darksalmon;
+    color:black;
+    border-radius: 5px;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+/*con la etiqueta "flex" podemos colocar un segmento al lado de otro, en este caso uno ocupa en 30% y el resto un 70%, es el equivalente a float*/
+.side{
+    flex:30%;
+    background-color:lightslategray;
+    padding:20px;
+
+}
+.main{
+    flex:70%;
+    background-color:lightgrey;
+    padding:20px;
+}
+.primero{
+    background-color: cornsilk;
+    width:100%;
+    padding:20px;
+    border:1px dashed grey;
+}
+.footer{
+    padding:20px;
+    text-align:center;
+    background-color:darksalmon;
+
+}
+/*Esta media query indica como va a cambiar la pantalla cuando el tamaño sea de máximo de 700px*/
+@media screen and (max-width:700px){
+    .row,
+    .navbar{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    color:#2596be;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+}
+body{
+    background-color:#e5e0db;
+    margin-bottom: 100px;
+}
+.tiempo{
+    margin: auto;
+    width:800px;
+    height:auto;
+    margin-top:100px;
+    margin-left: 300px;
+    border:1px solid grey;
+    
+
+}
+
+nav{
+    display:inline-block;
+    padding-left: 100px;
+    border:2px solid grey;
+    border-radius:5px;
+    padding:5px;
+    margin-left:50px;
+    background-color:#bcb8a7;
+    font-family:sans-serif;
+    width:150px;
+    text-align: center;
+    color:white;
+    
+}
+
+
+.foto{
+    width:300px;
+    height:450px;
+    align:right;
+    float:left;
+    padding-right: 50px;
+}
+
+.parrafo{
+    float: right;
+    text-align:justify;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right:150px ;
+    margin-bottom: 300px;
+}
+#contenedor{
+display:inline-block;
+}
